@@ -1,0 +1,116 @@
+.chooseus {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+
+}
+
+.chooseus .text {
+    flex-grow: 1;
+    display: block;
+   
+}
+
+.chooseus .text>h2 {
+    font-size: 3rem;
+    line-height: 42px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #001B5D;
+    font-family: 'Gilroy', sans-serif;
+}
+
+
+.chooseus>div {
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 350px;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-left: 60px;
+
+}
+
+.chooseus>div:hover {
+    transform: translateY(-10px);
+    transition: all 0.4s;
+    cursor: pointer;
+
+    box-shadow: 10px 10px 10px 10px #F8F8F8;
+
+}
+
+.hidden-paragraph {
+    display: none;
+}
+
+.chooseus>div:hover .hidden-paragraph {
+
+    display: block;
+
+}
+
+
+
+.item-3 {
+    position: relative;
+    left: 305px;
+
+}
+
+
+.item-4 {
+    position: relative;
+    left: 320px;
+
+}
+
+.item-5 {
+    position: relative;
+    left: 307px;
+
+}
+
+
+
+.chooseus>div>h3 {
+    font-size: calc(1.875*1vw);
+    line-height: 1.11;
+    font-weight: 400;
+    /* margin: 18px 0 0; */
+    color: #001B5D;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.chooseus>div>img {
+    height: 70px;
+    width: 70px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* .chooseus {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        
+    
+    }
+    .chooseus .text>h2 {
+        font-size: 4rem;
+        line-height: 42px;
+        font-weight: 600;
+        text-transform: capitalize;
+        white-space: nowrap;
+        color: #001B5D;
+        font-family: 'Gilroy', sans-serif;
+    }
+
+    .chooseus .text> p {
+        font-size: 2rem;
+        font-weight: 400;
+        white-space: nowrap;
+        
+    } */
+}
